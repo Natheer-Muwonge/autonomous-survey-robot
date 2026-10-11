@@ -44,11 +44,17 @@ Built for ENES100 (Introduction to Engineering Design) at the University of Mary
 3. **Complete mission:** raise the arm, read the target color, and deploy the droppers.
 4. **Traverse obstacles:** lower the arm, detect blocked lanes with the ultrasonic sensor, and reroute to an open one.
 5. **Reach goal:** finish in the end zone.
+6. 
+## Code Structure
 
+- `src/final/THEFINALEOFTHECODE.ino`: full mission program used for the 6/6 Milestone 7 run
+- `src/subsystems/`: standalone tests for each component (color sensor, ultrasonic, droppers, servo, WiFi, voltage, strafing, turns)
+- `src/archive/`: earlier navigation iterations and milestone task code
+- 
 ## Running the Code
 
 1. Install the [Arduino IDE](https://www.arduino.cc/en/software).
-2. Open the main `.ino` file.
+2. Open src/final/THEFINALEOFTHECODE.ino. The Arduino IDE will offer to move it into a folder with the same name; click OK.
 3. Install the required libraries via **Sketch > Include Library > Manage Libraries** (`Servo`, plus the ENES100 vision-system library).
 4. Select **Board: Arduino Mega 2560** and the correct port, then upload.
 
