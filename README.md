@@ -58,6 +58,6 @@ Built for ENES100 (Introduction to Engineering Design) at the University of Mary
 
 ## Team
 
-Natheer Muwonge ([GitHub](https://github.com/Natheer-Muwonge)) 
+Natheer Muwonge ([GitHub](https://github.com/Natheer-Muwonge)), Bert, Chi, Stephan, Joe, Ishan, and Axel
 
 My contributions: *[e.g. navigation FSM, PID heading control, timer conflict debugging]*
